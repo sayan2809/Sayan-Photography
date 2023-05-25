@@ -1,0 +1,55 @@
+@font-face {
+  font-family: myFont;
+  src: url(Pasajero-95AL.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("./image/green.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.heading {
+  color: #0cf39e;
+  padding-left: 100px;
+  padding-top: 10px;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #02fcb9;
+}
+
+body {
+  font-family: myFont;
+  font-variant: small-caps;
+  font-size: 1vw;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.catagory {
+  text-align: center;
+  padding-top: 100px;
+}
+
+a {
+  color: #0cf39e;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #02fcb9;
+}
+
+h1 {
+  color: #0cf39e;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #02fcb9;
+}

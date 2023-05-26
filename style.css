@@ -18,7 +18,7 @@
 .heading {
   color: #0cf39e;
   padding-left: 100px;
-  padding-top: 10px;
+  padding-top: 20px;
   letter-spacing: 5px;
   text-shadow: 0 0 3px #02fcb9;
 }
@@ -52,4 +52,61 @@ h1 {
   color: #0cf39e;
   letter-spacing: 5px;
   text-shadow: 0 0 3px #02fcb9;
+}
+
+.street {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.social {
+  padding-left: 10px;
+  padding-top: 100px;
+}
+
+nav {
+  position: fixed;
+  width: 70px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+nav li {
+  height: 60px;
+  position: relative;
+}
+
+nav li a {
+  color: #02fcb9;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  padding-left: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+nav li a i {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: 27px;
+}
+
+nav li a span {
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: none;
+}
+
+a:hover {
+  z-index: 1;
+  width: 200px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+ul li a:hover span {
+  display: block;
+  padding-left: 19%;
 }

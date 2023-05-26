@@ -56,7 +56,7 @@ h1 {
 
 .street {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 170px;
 }
 
 .social {
@@ -108,5 +108,5 @@ a:hover {
 
 ul li a:hover span {
   display: block;
-  padding-left: 19%;
+  padding-left: 20%;
 }

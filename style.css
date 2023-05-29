@@ -177,7 +177,7 @@ ul li a:hover span {
   padding-left: 20%;
 }
 
-.img-slider .slide {
+/*.img-slider .slide {
   z-index: 1;
   position: absolute;
   width: 100%;

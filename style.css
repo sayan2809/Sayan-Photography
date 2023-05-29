@@ -135,9 +135,8 @@ h1 {
 }
 
 nav {
-  position: fixed;
-  width: 70px;
-  transition: all 0.3s linear;
+ width: 70px;
+ transition: all 0.3s linear;
 }
 
 nav li {

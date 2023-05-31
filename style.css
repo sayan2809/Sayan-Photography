@@ -7,6 +7,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background: black;
+}
 
 .background-image {
   background-image: url("./image/green.jpg");
@@ -44,11 +47,11 @@
   text-shadow: 0 0 3px #fa1c11;
 }
 .heading2 {
-  color: #0526fe;
+  color: #056dfe;
   padding-left: 100px;
   padding-top: 20px;
   letter-spacing: 5px;
-  text-shadow: 0 0 3px #1138fa;
+  text-shadow: 0 0 3px #1157fa;
 }
 
 body {
@@ -93,9 +96,9 @@ a {
 }
 
 .b {
-  color: #0526fe;
+  color: #056dfe;
   letter-spacing: 5px;
-  text-shadow: 0 0 3px #1138fa;
+  text-shadow: 0 0 3px #1157fa;
 }
 h1 {
   color: #0cf39e;
@@ -110,9 +113,9 @@ h1 {
 }
 
 .blue {
-  color: #0526fe;
+  color: #056dfe;
   letter-spacing: 5px;
-  text-shadow: 0 0 3px #1138fa;
+  text-shadow: 0 0 3px #1157fa;
 }
 
 .street {
@@ -134,9 +137,19 @@ h1 {
   padding-top: 100px;
 }
 
+.social1 {
+  padding-left: 10px;
+  padding-top: 100px;
+}
+
+.social2 {
+  padding-left: 10px;
+  padding-top: 100px;
+}
+
 nav {
- width: 70px;
- transition: all 0.3s linear;
+  width: 70px;
+  transition: all 0.3s linear;
 }
 
 nav li {
@@ -176,7 +189,7 @@ ul li a:hover span {
   padding-left: 20%;
 }
 
-/*.img-slider .slide {
+.img-slider .slide {
   z-index: 1;
   position: absolute;
   width: 100%;
